@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './Component/Banner/Banner';
 import CollectionFeatured from './Component/CollectionFeatured/CollectionFeatured';
+import MoreNfts from './Component/DiscoverMoreNfts/MoreNfts';
 import Footer from './Component/Footer/Footer';
 import NavBar from './Component/Navbar/NavBar';
 import TopCollection from './Component/TopCollection/TopCollection';
@@ -15,7 +16,9 @@ function App() {
       <Transaction></Transaction>
       <TopCollection></TopCollection>
       <CollectionFeatured></CollectionFeatured>
+      <MoreNfts></MoreNfts>
       <Footer></Footer>
+
     </div>
   );
 }
