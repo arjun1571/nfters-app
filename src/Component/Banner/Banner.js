@@ -21,7 +21,7 @@ const Banner = () => {
                     <div className='w-auto'>
                     <h1 className="text-5xl font-bold">Discover, and collect <br /> Digital Art  NFTs </h1>
                     <p className="py-6">Digital marketplace for crypto collectibles and  non-fungible tokens (NFTs). <br /> Buy, Sell, and discover  exclusive digital assets. </p>
-                    <button className="btn bg-indigo-600 text-white rounded-full">Explore Now</button>
+                    <button className="btn bg-indigo-600 text-white hover:text-black rounded-full">Explore Now</button>
                     <div className='flex mt-5'>
                         <div className='mr-8'>
                             <h1 className='text-4xl font-bold'>98K+</h1>
