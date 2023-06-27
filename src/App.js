@@ -1,5 +1,6 @@
 import './App.css';
 import Banner from './Component/Banner/Banner';
+import CollectionFeatured from './Component/CollectionFeatured/CollectionFeatured';
 import NavBar from './Component/Navbar/NavBar';
 import TopCollection from './Component/TopCollection/TopCollection';
 import Transaction from './Component/Transaction/Transaction';
@@ -12,6 +13,7 @@ function App() {
       <Banner></Banner>
       <Transaction></Transaction>
       <TopCollection></TopCollection>
+      <CollectionFeatured></CollectionFeatured>
     </div>
   );
 }
