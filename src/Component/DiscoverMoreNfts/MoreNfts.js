@@ -30,6 +30,9 @@ const MoreNfts = () => {
                     datas?.map((data)=> <MoreNftCart key={data.id} data={data}></MoreNftCart>)
                 }
             </div>
+            <div className='text-center'>
+                <button className="btn btn-outline btn-primary mt-10 rounded-full ">More NFTs</button>
+            </div>
         </div>
     );
 };

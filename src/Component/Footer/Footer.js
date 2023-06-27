@@ -34,7 +34,7 @@ const Footer = () => {
             <div>
                 <span className="text-black font-bold">Sta in This Loop</span> 
                 <p className="link link-hover">Join our mailing list to stay in the loop with our newest <br /> feature releases, NFT drops, and tips and tricks for <br /> navigating NFTs.</p> 
-                <div className="flex">
+                <div className="flex border rounded-2xl">
                     <input type="text" placeholder="Enter you Email" className="input input-bordered w-full max-w-xs " />
                     <button className="btn btn-primary rounded-full">Subscribe</button>
                 </div>
