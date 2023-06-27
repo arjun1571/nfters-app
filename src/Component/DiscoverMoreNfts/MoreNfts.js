@@ -9,7 +9,7 @@ const MoreNfts = () => {
         .then(data=>setDatas(data))
     },[])
     return (
-        <div className=''>
+        <div className='mt-20 mx-3'>
             <h1 className='text-3xl font-bold'>Discover more NFTs</h1>
             <div className='lg:flex items-center justify-between'>
                 <div className='mt-5'>

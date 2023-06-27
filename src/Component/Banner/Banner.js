@@ -5,18 +5,16 @@ const Banner = () => {
     return (
         <div className="hero mt-12 ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                <div className="card   shadow-xl h-72 w-80 lg:w-96 bg">
-                    <div className="card-body">
+                <div className="card   shadow-xl h-72  bg">
+                    <div className="my-10 mx-10">
                         <h2 className="card-title text-white">Abst Gradient NFT</h2>
                         <div className='flex items-center'>
                             <img src={Elip} alt=""  className='mr-2'/>
                             <p className='text-white'>Arkhan17</p>
                         </div>
-                        <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
-                        </div>
                     </div>
                     </div>
+
                     <div className='w-auto'>
                     <h1 className="text-5xl font-bold">Discover, and collect <br /> Digital Art  NFTs </h1>
                     <p className="py-6">Digital marketplace for crypto collectibles and  non-fungible tokens (NFTs). <br /> Buy, Sell, and discover  exclusive digital assets. </p>
