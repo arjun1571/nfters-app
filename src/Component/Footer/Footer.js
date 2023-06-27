@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebook,FaTwitter,FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -7,10 +8,10 @@ const Footer = () => {
             <div>
                 <h1 className='font-bold text-2xl'>NFTERS</h1>
                 <p>The world’s first and largest digital marketplace for <br /> crypto collectibles and non-fungible tokens (NFTs). <br /> Buy, sell, and discover exclusive digital items.</p>
-                <div className='flex'>
-                    <h1>000</h1>
-                    <h1>000</h1>
-                    <h1>000</h1>
+                <div className='flex mt-5'>
+                    <FaFacebook className='mr-5 text-4xl '  />  
+                    <FaTwitter  className='mr-5 text-4xl'/>  
+                    <FaLinkedin className='mr-5 text-4xl' />  
                 </div>
             </div> 
             <div>
