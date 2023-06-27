@@ -14,7 +14,7 @@ const NavBar = () => {
       <li>About</li>
       </ul>
     </div>
-    <h1 className="btn btn-ghost normal-case lg:text-xl">NFTERS</h1>
+    <h1 className="btn btn-ghost normal-case lg:text-xl text-indigo-600">NFTERS</h1>
     <div className='hidden lg:block '>
     <ul className="menu menu-horizontal px-1 p-2 ">
       <li className='p-2 btn btn-ghost normal-case ' >MarketPlace</li>
