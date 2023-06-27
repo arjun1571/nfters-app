@@ -5,7 +5,7 @@ const RightMCart = ({PersentData}) => {
     return (
         <div className='mb-8 mt-4 flex items-center '>
             <div className='flex items-center mr-4'>
-                <h1 className='mr-4'>{id}</h1>
+                <h1 className='mr-4 font-bold'>{id}</h1>
                 <img src={img} alt="" />
             </div>
             <div className=''>
@@ -16,7 +16,7 @@ const RightMCart = ({PersentData}) => {
                 </div>
             </div>
             <div>
-                <h1 className='mx-5 text-accent'>{parsent}</h1>
+                <h1 className='mx-8 text-accent'>{parsent}</h1>
             </div>
         </div>
     );

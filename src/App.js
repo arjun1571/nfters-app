@@ -1,6 +1,7 @@
 import './App.css';
 import Banner from './Component/Banner/Banner';
 import CollectionFeatured from './Component/CollectionFeatured/CollectionFeatured';
+import Footer from './Component/Footer/Footer';
 import NavBar from './Component/Navbar/NavBar';
 import TopCollection from './Component/TopCollection/TopCollection';
 import Transaction from './Component/Transaction/Transaction';
@@ -14,6 +15,7 @@ function App() {
       <Transaction></Transaction>
       <TopCollection></TopCollection>
       <CollectionFeatured></CollectionFeatured>
+      <Footer></Footer>
     </div>
   );
 }

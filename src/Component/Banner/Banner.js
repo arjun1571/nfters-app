@@ -3,8 +3,7 @@ import "./Banner.css"
 import Elip from "../../asset/Ellipse 95.png"
 const Banner = () => {
     return (
-        <div>
-            <div className="hero mt-12 ">
+        <div className="hero mt-12 ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className="card   shadow-xl h-72 w-80 lg:w-96 bg">
                     <div className="card-body">
@@ -38,7 +37,6 @@ const Banner = () => {
                     </div>
                     </div>
                 </div>
-            </div>
         </div>
     );
 };
