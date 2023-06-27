@@ -14,7 +14,7 @@ const TopColMCart = ({topData}) => {
                         <img src={logo} alt="" className='mr-2' />
                     </div>
                     <div>
-                        <button className="btn btn-outline btn-accent btn-xs  mr-2"><img src={logo2} alt="" className='text-accent' /> {value}</button> 
+                        <button className="btn btn-outline btn-accent btn-xs   mr-2"><img src={logo2} alt="" className='text-accent' /> {value}</button> 
                     </div>
                     <div className='hidden lg:block'>
                         <h1>1 of 8</h1>
@@ -23,18 +23,7 @@ const TopColMCart = ({topData}) => {
                 <button className="btn btn-outline btn-primary mt-4 rounded-full btn-sm">Place a bid</button>
             </div>
         </div>
-        // <div className="card card-side mb-10">
-        //     <figure><img src={img} alt="Movie"/></figure>
-        //     <div className="">
-        //         <div className='mr-2'>
-        //         <h2 className="card-title"> {name}</h2>
-        //         <p>Click the button to watch on Jetflix app.</p>
-        //         <div className="card-actions justify-end">
-        //         <button className="btn btn-primary">Watch</button>
-        //         </div>
-        //         </div>
-        //     </div>
-        // </div>
+        
     );
 };
 
