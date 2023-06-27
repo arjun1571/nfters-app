@@ -1,21 +1,21 @@
 import React from 'react';
 import "./Banner.css"
-import Elip from "../../asset/Ellipse 95.png"
+// import Elip from "../../asset/Ellipse 95.png"
+import Img from "../../asset/unsplash_pVoEPpLw818 (3).png"
+import Img1 from "../../asset/unsplash_tZCrFpSNiIQ (1).png"
+import Img2 from "../../asset/home.png"
 const Banner = () => {
     return (
-        <div className="hero mt-12 ">
+        <div className=" mt-12 ">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                <div className="card   shadow-xl h-72  bg">
-                    <div className="my-10 mx-10">
-                        <h2 className="card-title text-white">Abst Gradient NFT</h2>
-                        <div className='flex items-center'>
-                            <img src={Elip} alt=""  className='mr-2'/>
-                            <p className='text-white'>Arkhan17</p>
-                        </div>
-                    </div>
+                    <div className='lg:flex '>
+                        <img src={Img} alt="" className='lg:mx-8 lg:block hidden '/>
+                        <img src={Img1} alt=""  className='lg:-mx-96 '/>
+                        <img src={Img2} alt="" className=' lg:block hidden'/>
+       
                     </div>
 
-                    <div className='w-auto'>
+                    <div className='lg:w-1/2 mx-24 '>
                     <h1 className="text-5xl font-bold">Discover, and collect <br /> Digital Art  NFTs </h1>
                     <p className="py-6">Digital marketplace for crypto collectibles and  non-fungible tokens (NFTs). <br /> Buy, Sell, and discover  exclusive digital assets. </p>
                     <button className="btn bg-indigo-600 text-white hover:text-black rounded-full">Explore Now</button>
