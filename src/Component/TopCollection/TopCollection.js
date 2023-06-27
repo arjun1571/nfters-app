@@ -2,7 +2,39 @@ import React from 'react';
 import Unplash from "../../asset/unsplash_F56Y7dgrAkc.png"
 import Elips from "../../asset/Ellipse 95.png"
 import Ethe from "../../asset/ethereum 2.png"
+import EtheQ from "../../asset/unsplash_8uZPynIu-rQ.png"
+import EtheC from "../../asset/unsplash_Tyg0rVhOTrE.png"
+import Ethe4 from "../../asset/unsplash_wHJ5L9KGTl4.png"
+import TopColMCart from './TopColMCart';
+
 const TopCollection = () => {
+    const TopCollectionData = [
+        {
+          id: 1,
+          name: "The Futr Abstr",
+          img:EtheQ,
+          logo: Elips,
+          logo2:Ethe,
+          value:"0.25 ETH "
+        },
+        {
+          id: 2,
+          name: "The Futr Abstr",
+          img:EtheC,
+          logo: Elips,
+          logo2:Ethe,
+          value:"0.25 ETH "
+        },
+        {
+          id: 3,
+          name: "The Futr Abstr",
+          img:Ethe4,
+          logo: Elips,
+          logo2:Ethe,
+          value:"0.25 ETH "
+        },
+        
+      ];
     return (
         <div className='grid lg:grid-cols-3 grid-cols-1 mt-20 p-5 gap-5 rounded'>
             <div>
@@ -32,7 +64,9 @@ const TopCollection = () => {
                 </div>
             </div>
             <div>
-                <h1 className='text-3xl font-bold'>The amazing NFT art <br /> of the world here</h1>
+                {
+                    TopCollectionData?.map((topData)=> <TopColMCart topData={topData} key={topData.id}></TopColMCart>)
+                }
             </div>
             <div>
                 <h1 className='text-3xl font-bold'>The amazing NFT art <br /> of the world here</h1>
