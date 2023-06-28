@@ -7,7 +7,7 @@ import Img2 from "../../asset/home.png"
 import Img3 from "../../asset/Ellipse 4.png"
 const Banner = () => {
     return (
-        <div className='mt-20 grid lg:grid-cols-2 gap-5 lg:gap-52 grid-cols-1 mx-3'>
+        <div className='mt-20 grid lg:grid-cols-2 gap-5 lg:gap-80 grid-cols-1 mx-3'>
             <div className='mb-10'>
                 <h1 className="text-5xl font-bold">Discover, and collect <br /> Digital Art  NFTs </h1>
                 <p className="py-6">Digital marketplace for crypto collectibles and  non-fungible tokens (NFTs). <br /> Buy, Sell, and discover  exclusive digital assets. </p>
@@ -45,8 +45,8 @@ const Banner = () => {
                                 <p>0.25 ETH</p>
                             </div>
                             <div>
-                                <p>Current Bid</p>
-                                <p>0.25 ETH</p>
+                                <p>End In</p>
+                                <p>12h 43m 42s</p>
                             </div>
                         </div>
                     </div>

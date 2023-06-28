@@ -23,7 +23,7 @@ const CreateAndSell = () => {
             <div className='lg:mx-10 mx-3 mt-32'>
                 <h1 className='text-3xl font-bold'>Create and sell your NFTs</h1>
                 <p className='my-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisi ac phasellus placerat a pellentesque tellus sed egestas. Et tristique dictum sit tristique sed non. Lacinia lorem id consectetur pretium diam ut. Pellentesque eu sit blandit fringilla risus faucibus.</p>
-                <button className="btn btn-active btn-primary">Sign Up Now</button>
+                <button className="btn btn-active btn-primary rounded-full">Sign Up Now</button>
             </div>
         </div>
     );

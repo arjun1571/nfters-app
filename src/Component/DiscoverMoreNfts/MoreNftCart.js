@@ -27,7 +27,7 @@ const MoreNftCart = ({data}) => {
                     </div>
                     <hr />
                     <div className='flex  justify-between p-2 items-center'>
-                        <button class="btn btn-outline btn-primary rounded-full">3h 50m 2s left</button>
+                        <button className="btn btn-outline btn-primary rounded-full">3h 50m 2s left</button>
                         <p className='font-bold'>Place a bid</p>
                     </div>
                 </div>
